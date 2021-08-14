@@ -2,9 +2,9 @@
   "name": "codes",
   "version": "1.0.0",
   "description": "",
-  "main": "001-Create-web-server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon qr.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
