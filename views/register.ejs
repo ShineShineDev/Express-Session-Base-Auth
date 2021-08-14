@@ -1,0 +1,25 @@
+<%-include('header')%>
+    <div class='container'>
+        <h4 class='text-center text-white mb-3 mt-5 p-2'>Express Session Base Auth</h4>
+        <div class='row no-gutter'>
+           <div class='col-md-4 offset-md-4 mt-1'>
+               <form class="mt-4 bg-light border p-4 rounded" method='post' action = "/register" >
+                  <% if(message) {%>
+                    <%=message%>
+                   <% }%>
+                   <h5 class='text-center text-info mb-3 mt-1 p-2'>Register</h5>
+                   <div class='form-group'>
+                       <lable class='text-info'>User Name</label>
+                       <input type="text" name='username' class="form-control" required/>
+                   </div>
+                   <div class='form-group'>
+                       <lable class='text-info'>Password</label>
+                       <input type="password" name='password' class="form-control" required/> <br>
+                   </div>
+                   <input type="submit" value='register' class='btn btn-info mt-0'/>
+                   <a class='float-right' href='http://localhost:8080/login'>Login</a>
+               </form>
+            </div>
+        </div>
+    </div>
+<%-include('footer')%>
