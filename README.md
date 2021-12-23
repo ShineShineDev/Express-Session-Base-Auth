@@ -3,7 +3,7 @@
 
 ### Screenshot Photos
 https://drive.google.com/drive/folders/1uzOre77xNwZbjqTqG2fuDE-Su9slxFO5?usp=sharing
-![image](https://drive.google.com/uc?export=view&id=11eJdM8wZyd0sQDI5iSDmd7Cb8SuX56qBt)
+![image](https://github.com/ShineShineDev/Express-Session-Base-Auth/blob/master/app-photo-2.png)
 
 
 ### Clone Repository
